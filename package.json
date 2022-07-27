@@ -1,7 +1,7 @@
 {
   "name": "peertube-plugin-rpi-hardware-transcoding",
-  "version": "0.0.1",
-  "description": "Use h264_omx encoder for transcoding",
+  "version": "0.0.2",
+  "description": "Use h264_v4l2m2m encoder for transcoding",
   "engine": {
     "peertube": ">=3.3.0"
   },
