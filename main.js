@@ -47,7 +47,7 @@ async function register ({
   })
 
   const encoder = 'h264_omx'
-  const profileName = 'custom-quality'
+  const profileName = 'h264_omx-custom-quality'
 
   transcodingManager.addVODProfile(encoder, profileName, builderVOD)
   transcodingManager.addLiveProfile(encoder, profileName, buildLive)
